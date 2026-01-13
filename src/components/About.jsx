@@ -13,7 +13,7 @@ const About = () => {
             <div 
               className="relative z-10 aspect-[4/3] rounded-xl overflow-hidden bg-slate-800 shadow-xl"
               style={{
-                backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuDvD8yZxpD1CBynenhoQpJugynJSd9XA67aR5X8AC40DdT6EvjAM_3iYFXtf8gWN_tnWRmVh37FUw2SjI1ZxU6ixvjP3USlD3rpzenMyQawcoeiFN4WGEZh4xhXiE2dByXQLrHT2epcE7pwuPoG-3uCl5QQPRA0P2MMvhWol4p9DXX_WQ27XtjfU7ivgyUqMghFyMmAnW-ScZsrOtXIXQYtnOHzbLQ8VdjXB3DGb3_NSOhNjuhSRON3nTeuVhIlx-SywWu4lYroiGvM')",
+                backgroundImage: "url('/about1.jpg')",
                 backgroundSize: 'cover',
                 backgroundPosition: 'center'
               }}
@@ -26,24 +26,24 @@ const About = () => {
               I'm a passionate developer who loves bridging the gap between design and engineering.
             </h3>
             <p className="leading-relaxed">
-              With 5 years of experience building scalable web applications, I have honed my skills in creating intuitive and dynamic user interfaces. I believe that good code is not just about functionality, but also about readability and maintainability.
+             I specialize in building clean, scalable, and user-centric frontend interfaces that focus not just on functionality, but on delivering an enjoyable and intuitive user experience. I have a deep interest in UI/UX design, performance optimization, and writing maintainable code that scales with growing products.
             </p>
             <p className="leading-relaxed">
-              When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying a good cup of coffee while reading about the latest trends in UI/UX design.
+              When I'm not coding, you can find me exploring new technologies, finding good games to play, or enjoying a good cup of coffee while watching about the latest trends in the world of Ai and Technologies.
             </p>
             
             {/* Stats */}
             <div className="flex gap-8 pt-4">
               <div className="flex flex-col">
-                <span className="text-3xl font-bold text-primary">05+</span>
+                <span className="text-3xl font-bold text-primary">1.5+</span>
                 <span className="text-sm font-medium text-slate-500">Years Exp.</span>
               </div>
               <div className="flex flex-col">
-                <span className="text-3xl font-bold text-primary">50+</span>
+                <span className="text-3xl font-bold text-primary">20+</span>
                 <span className="text-sm font-medium text-slate-500">Projects</span>
               </div>
               <div className="flex flex-col">
-                <span className="text-3xl font-bold text-primary">20+</span>
+                <span className="text-3xl font-bold text-primary">15+</span>
                 <span className="text-sm font-medium text-slate-500">Clients</span>
               </div>
             </div>

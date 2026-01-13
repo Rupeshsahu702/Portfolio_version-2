@@ -34,7 +34,7 @@ const Journey = () => {
       year: "2021 - 2025",
       title: "B. Tech Computer Science",
       company: "Shri Shankaracharya Technical Campus",
-      description: "Specialized in Human-Computer Interaction. Graduated with honors. Capstone project involved building an accessible learning platform for students with disabilities.",
+      description: "Specialized in Data Science and Web Development. Graduated with 8+ CGPA. Capstone project involved building an accessible mobile web application which helps to troubleshoot the laptops software which occasionally need manual troubleshooting which is complex for non-technical users.",
       isCurrent: false
     }
   ];
