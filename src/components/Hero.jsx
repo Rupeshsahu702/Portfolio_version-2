@@ -1,3 +1,5 @@
+import TypewriterText from './common/TypewriterText';
+
 const Hero = () => {
   return (
     <section className="w-full flex bg-[#101922] justify-center py-12 md:py-24 px-4 md:px-10 min-h-[85vh] items-center" id="home">
@@ -11,9 +13,7 @@ const Hero = () => {
           
           <h1 className="text-4xl md:text-6xl font-black leading-[1.1] tracking-tight text-white dark:text-white">
             Hi, I'm Rupesh.<br/>
-            <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-400 to-purple-500">
-              Frontend Developer
-            </span>
+            <TypewriterText titles={['Frontend Developer', 'UI/UX Developer', 'Project Manager']} />
           </h1>
           
           <p className="text-slate-600 dark:text-slate-400 text-lg leading-relaxed max-w-[540px]">
